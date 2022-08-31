@@ -56,7 +56,7 @@ namespace Lab_5_1_Prime_Numbers
             }
 
 
-            if ((urpeat.Trim().ToLower())[0] == 'y'){ break;}
+            if ((urpeat.Trim().ToLower())[0] == 'n'){ break;}
 
         }
 
@@ -115,7 +115,7 @@ namespace Lab_5_1_Prime_Numbers
                     if (!basenum)
                     {
                         tempPrimes.Add(z);
-                        Console.WriteLine(z);
+                        //Console.WriteLine(z);
                         index++;
                     }
 
